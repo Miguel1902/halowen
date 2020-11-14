@@ -1,0 +1,80 @@
+@font-face {
+    font-family: sholp;
+    src: url(../fonts/shloprg.ttf)
+}
+
+#container {
+    width: 1410px;
+    height:600px;
+    background-image: url(../imagenes/fondo.jpg);
+    margin: auto;
+    position: relative;
+}
+
+body {
+    background-color: black;
+}
+
+#titulo {
+    position: absolute;
+    top: 30px;
+    left: 410px;
+    color: rgb(163, 40, 91);
+    font-family: sholp;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px orange;
+}
+
+#draculagif {
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    visibility: hidden;
+    cursor: crosshair;
+}
+
+#palma {
+    /*border: solid 1px white;*/
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 460px;
+    left: 190px;
+    cursor: pointer;
+}
+
+#calabaza {
+    position: absolute;
+    top: 140px;
+    left: 520px;
+    visibility: hidden;
+    cursor: crosshair;
+}
+
+#cruzderecha {
+    /*border: solid 1px white;*/
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 490px;
+    cursor: pointer;
+}
+
+#cruzderecha2 {
+    /*border: solid 1px white;*/
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 470px;
+    left: 1220px;
+    cursor: pointer;
+}
+
+#tioloco {
+    position: absolute;
+    top: 190px;
+    left: 500px;
+    visibility: hidden;
+    cursor: pointer;
+}

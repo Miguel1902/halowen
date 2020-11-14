@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="javascripts/javascritps.js"></script>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <div id="container">
+
+        <audio id="principal">
+            <source src="sonidos/principal.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="dracula">
+            <source src="sonidos/dracula.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="loco">
+            <source src="sonidos/audiotioloco.mp3" type="audio/mpeg">
+        </audio>
+
+        <p id="titulo">Bienvenido a la fiesta...</p>
+        <img id="draculagif" src="imagenes/dracula.gif" height="500" onclick="ocultar('draculagif'); parar('dracula')">
+        <div id="palma" onclick="mostrar('draculagif'); sonar('dracula')"></div>
+
+        <img id="calabaza" src="imagenes/gifcalabaza.gif" height="500" onclick="ocultar('calabaza'); parar('principal')">
+        <div id="cruzderecha" onclick="mostrar('calabaza'); sonar('principal')"></div>
+
+        <img id="tioloco" src="imagenes/giftioloco.gif" height="400" onclick="ocultar('tioloco'); parar('loco')">
+        <div id="cruzderecha2" onclick="mostrar('tioloco'); sonar('loco')"></div>
+
+    </div>
+</body>
+</html>
